@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FC059121E13BFE6000F81C0 /* CCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC059111E13BFE6000F81C0 /* CCButton.swift */; };
+		9FC059151E14BD59000F81C0 /* CCTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC059141E14BD59000F81C0 /* CCTabbar.swift */; };
+		9FC37C2C1E13941600C17607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC37C2B1E13941600C17607 /* AppDelegate.swift */; };
+		9FC37C331E13941600C17607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC37C321E13941600C17607 /* Assets.xcassets */; };
+		9FC37C361E13941600C17607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC37C341E13941600C17607 /* LaunchScreen.storyboard */; };
+		9FC37C431E13A80F00C17607 /* CCRootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC37C421E13A80F00C17607 /* CCRootTabBarController.swift */; };
+		9FC37C461E13A85800C17607 /* CCRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC37C451E13A85800C17607 /* CCRootViewController.swift */; };
+		9FC37C481E13A89B00C17607 /* CCAddressBookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC37C471E13A89B00C17607 /* CCAddressBookController.swift */; };
+		9FC37C4A1E13A8B100C17607 /* CCChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC37C491E13A8B100C17607 /* CCChatViewController.swift */; };
+		9FC37C4C1E13A8CA00C17607 /* CCFriendCircleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC37C4B1E13A8CA00C17607 /* CCFriendCircleController.swift */; };
+		9FC37C4E1E13A8DF00C17607 /* CCMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC37C4D1E13A8DF00C17607 /* CCMeViewController.swift */; };
+		9FC37C511E13AB1900C17607 /* CCDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC37C501E13AB1900C17607 /* CCDefine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9FC059111E13BFE6000F81C0 /* CCButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCButton.swift; sourceTree = "<group>"; };
+		9FC059141E14BD59000F81C0 /* CCTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCTabbar.swift; sourceTree = "<group>"; };
+		9FC37C281E13941600C17607 /* CicadaChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CicadaChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC37C2B1E13941600C17607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FC37C321E13941600C17607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FC37C351E13941600C17607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FC37C371E13941600C17607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC37C421E13A80F00C17607 /* CCRootTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCRootTabBarController.swift; sourceTree = "<group>"; };
+		9FC37C451E13A85800C17607 /* CCRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCRootViewController.swift; sourceTree = "<group>"; };
+		9FC37C471E13A89B00C17607 /* CCAddressBookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCAddressBookController.swift; sourceTree = "<group>"; };
+		9FC37C491E13A8B100C17607 /* CCChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCChatViewController.swift; sourceTree = "<group>"; };
+		9FC37C4B1E13A8CA00C17607 /* CCFriendCircleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCFriendCircleController.swift; sourceTree = "<group>"; };
+		9FC37C4D1E13A8DF00C17607 /* CCMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCMeViewController.swift; sourceTree = "<group>"; };
+		9FC37C501E13AB1900C17607 /* CCDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCDefine.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FC37C251E13941600C17607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FC059101E13BFCB000F81C0 /* UIModule */ = {
+			isa = PBXGroup;
+			children = (
+				9FC059111E13BFE6000F81C0 /* CCButton.swift */,
+			);
+			path = UIModule;
+			sourceTree = "<group>";
+		};
+		9FC37C1F1E13941500C17607 = {
+			isa = PBXGroup;
+			children = (
+				9FC37C2A1E13941600C17607 /* CicadaChat */,
+				9FC37C291E13941600C17607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FC37C291E13941600C17607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FC37C281E13941600C17607 /* CicadaChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FC37C2A1E13941600C17607 /* CicadaChat */ = {
+			isa = PBXGroup;
+			children = (
+				9FC059101E13BFCB000F81C0 /* UIModule */,
+				9FC37C4F1E13A97000C17607 /* Define */,
+				9FC37C441E13A84300C17607 /* RootModule */,
+				9FC37C3D1E13A7AE00C17607 /* AddressBookModule */,
+				9FC37C3E1E13A7AE00C17607 /* ChatModule */,
+				9FC37C3F1E13A7AE00C17607 /* FriendCircleModule */,
+				9FC37C401E13A7AE00C17607 /* MeModule */,
+				9FC37C411E13A7AE00C17607 /* RootTabarController */,
+				9FC37C2B1E13941600C17607 /* AppDelegate.swift */,
+				9FC37C321E13941600C17607 /* Assets.xcassets */,
+				9FC37C341E13941600C17607 /* LaunchScreen.storyboard */,
+				9FC37C371E13941600C17607 /* Info.plist */,
+			);
+			path = CicadaChat;
+			sourceTree = "<group>";
+		};
+		9FC37C3D1E13A7AE00C17607 /* AddressBookModule */ = {
+			isa = PBXGroup;
+			children = (
+				9FC37C471E13A89B00C17607 /* CCAddressBookController.swift */,
+			);
+			path = AddressBookModule;
+			sourceTree = "<group>";
+		};
+		9FC37C3E1E13A7AE00C17607 /* ChatModule */ = {
+			isa = PBXGroup;
+			children = (
+				9FC37C491E13A8B100C17607 /* CCChatViewController.swift */,
+			);
+			path = ChatModule;
+			sourceTree = "<group>";
+		};
+		9FC37C3F1E13A7AE00C17607 /* FriendCircleModule */ = {
+			isa = PBXGroup;
+			children = (
+				9FC37C4B1E13A8CA00C17607 /* CCFriendCircleController.swift */,
+			);
+			path = FriendCircleModule;
+			sourceTree = "<group>";
+		};
+		9FC37C401E13A7AE00C17607 /* MeModule */ = {
+			isa = PBXGroup;
+			children = (
+				9FC37C4D1E13A8DF00C17607 /* CCMeViewController.swift */,
+			);
+			path = MeModule;
+			sourceTree = "<group>";
+		};
+		9FC37C411E13A7AE00C17607 /* RootTabarController */ = {
+			isa = PBXGroup;
+			children = (
+				9FC37C421E13A80F00C17607 /* CCRootTabBarController.swift */,
+				9FC059141E14BD59000F81C0 /* CCTabbar.swift */,
+			);
+			path = RootTabarController;
+			sourceTree = "<group>";
+		};
+		9FC37C441E13A84300C17607 /* RootModule */ = {
+			isa = PBXGroup;
+			children = (
+				9FC37C451E13A85800C17607 /* CCRootViewController.swift */,
+			);
+			path = RootModule;
+			sourceTree = "<group>";
+		};
+		9FC37C4F1E13A97000C17607 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				9FC37C501E13AB1900C17607 /* CCDefine.swift */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FC37C271E13941600C17607 /* CicadaChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC37C3A1E13941600C17607 /* Build configuration list for PBXNativeTarget "CicadaChat" */;
+			buildPhases = (
+				9FC37C241E13941600C17607 /* Sources */,
+				9FC37C251E13941600C17607 /* Frameworks */,
+				9FC37C261E13941600C17607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CicadaChat;
+			productName = CicadaChat;
+			productReference = 9FC37C281E13941600C17607 /* CicadaChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FC37C201E13941500C17607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CC;
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Allen;
+				TargetAttributes = {
+					9FC37C271E13941600C17607 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9FC37C231E13941500C17607 /* Build configuration list for PBXProject "CicadaChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FC37C1F1E13941500C17607;
+			productRefGroup = 9FC37C291E13941600C17607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FC37C271E13941600C17607 /* CicadaChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FC37C261E13941600C17607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC37C361E13941600C17607 /* LaunchScreen.storyboard in Resources */,
+				9FC37C331E13941600C17607 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FC37C241E13941600C17607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC37C4A1E13A8B100C17607 /* CCChatViewController.swift in Sources */,
+				9FC37C461E13A85800C17607 /* CCRootViewController.swift in Sources */,
+				9FC37C511E13AB1900C17607 /* CCDefine.swift in Sources */,
+				9FC37C2C1E13941600C17607 /* AppDelegate.swift in Sources */,
+				9FC059121E13BFE6000F81C0 /* CCButton.swift in Sources */,
+				9FC37C431E13A80F00C17607 /* CCRootTabBarController.swift in Sources */,
+				9FC37C481E13A89B00C17607 /* CCAddressBookController.swift in Sources */,
+				9FC37C4E1E13A8DF00C17607 /* CCMeViewController.swift in Sources */,
+				9FC37C4C1E13A8CA00C17607 /* CCFriendCircleController.swift in Sources */,
+				9FC059151E14BD59000F81C0 /* CCTabbar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FC37C341E13941600C17607 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FC37C351E13941600C17607 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FC37C381E13941600C17607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FC37C391E13941600C17607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FC37C3B1E13941600C17607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CicadaChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shuai.CicadaChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9FC37C3C1E13941600C17607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CicadaChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shuai.CicadaChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FC37C231E13941500C17607 /* Build configuration list for PBXProject "CicadaChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC37C381E13941600C17607 /* Debug */,
+				9FC37C391E13941600C17607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FC37C3A1E13941600C17607 /* Build configuration list for PBXNativeTarget "CicadaChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC37C3B1E13941600C17607 /* Debug */,
+				9FC37C3C1E13941600C17607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FC37C201E13941500C17607 /* Project object */;
+}
